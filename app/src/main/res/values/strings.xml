@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MaterialPersonas</string>
+    <string name="action_settings">Settings</string>
+    <string name="titulo">Crear Personas</string>
+    <string name="cedula">Cédula</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string-array name="sexo">
+        <item>@string/masculino</item>
+        <item>@string/femenino</item>
+    </string-array>
+</resources>
