@@ -13,4 +13,6 @@
         <item>@string/masculino</item>
         <item>@string/femenino</item>
     </string-array>
+
+    <string name="Mensaje_guardado_exitoso">Persona guardada Exitosamente!</string>
 </resources>
