@@ -164,16 +164,19 @@
             android:layout_height="wrap_content"
             android:src="@android:drawable/ic_menu_edit"
             fab:fab_size="mini"
-            fab:fab_label="Menu item 1" />
+            fab:fab_label="@string/modificar"
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccent"/>
 
-        
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/menu_item"
+            android:id="@+id/menu_eliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_star"
+            android:src="@android:drawable/ic_menu_delete"
             fab:fab_size="mini"
-            fab:fab_label="Menu item 1" />
+            fab:fab_label="@string/eliminar"
+            app:fab_colorNormal="@color/colorAccent"
+            app:fab_colorPressed="@color/colorAccent"/>
 
     </com.github.clans.fab.FloatingActionMenu>
 </android.support.design.widget.CoordinatorLayout>
