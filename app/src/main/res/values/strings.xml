@@ -19,4 +19,8 @@
     <string name="sexo">Sexo</string>
     <string name="modificar">Modificar</string>
     <string name="eliminar">Eliminar</string>
+    <string name="positivo">Si</string>
+    <string name="negativo">No</string>
+    <string name="pregunta_eliminacion">¿Esta seguro que desea eliminar a esta persona?</string>
+
 </resources>

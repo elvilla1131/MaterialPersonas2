@@ -23,14 +23,6 @@
             app:expandedTitleMarginEnd="64dp"
             app:contentScrim="?attr/colorPrimary">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                app:srcCompat="@drawable/images"
-                app:layout_collapseMode="pin"/>
-
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -39,6 +31,14 @@
                 app:layout_collapseMode="pin">
 
             </android.support.v7.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/foto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="pin"
+                app:srcCompat="@drawable/images" />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
@@ -172,11 +172,12 @@
             android:id="@+id/menu_eliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="eliminar"
             android:src="@android:drawable/ic_menu_delete"
-            fab:fab_size="mini"
-            fab:fab_label="@string/eliminar"
             app:fab_colorNormal="@color/colorAccent"
-            app:fab_colorPressed="@color/colorAccent"/>
+            app:fab_colorPressed="@color/colorAccent"
+            fab:fab_label="@string/eliminar"
+            fab:fab_size="mini" />
 
     </com.github.clans.fab.FloatingActionMenu>
 </android.support.design.widget.CoordinatorLayout>
