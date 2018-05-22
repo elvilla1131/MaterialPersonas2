@@ -15,4 +15,6 @@
     </string-array>
 
     <string name="Mensaje_guardado_exitoso">Persona guardada Exitosamente!</string>
+    <string name="informacion">INFORMACION</string>
+    <string name="sexo">Sexo</string>
 </resources>

@@ -40,4 +40,9 @@ public class Datos {
     public static String getId (){
         return databaseReference.push().getKey();
     }
+
+
+    public static void setPersonas(ArrayList<Persona> personas){
+        Datos.personas = personas;
+    }
 }

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://C:\Users\Android\Documents\MaterialPersonas-master\MaterialPersonas.iml" filepath="C:\Users\Android\Documents\MaterialPersonas-master\MaterialPersonas.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialPersonas-master.iml" filepath="$PROJECT_DIR$/MaterialPersonas-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://C:\Users\Android\Documents\MaterialPersonas-master\app\app.iml" filepath="C:\Users\Android\Documents\MaterialPersonas-master\app\app.iml" />
     </modules>
   </component>
 </project>

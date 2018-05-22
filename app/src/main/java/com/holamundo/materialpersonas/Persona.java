@@ -20,6 +20,9 @@ public class Persona {
         this.apellido = apellido;
         this.sexo = sexo;
     }
+    public Persona(){
+
+    }
 
     public String getId() {
         return id;
